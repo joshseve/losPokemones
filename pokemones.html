@@ -4,26 +4,35 @@
 	<html>
 
 		<head>
-			<title> Pokemones </title>
+		<meta charset="utf-8">
+			<title> POO </title>
 		</head>
 
 		<body>
 
-		<input type="text" id="nombrePokemon">
-		<input type="text" id="colorPokemon">
-		<input type="text" name="puntosAtaque">
+		<body background="Wiki-background.jpg"> 
 
-		<section id="listaPokemones">
+			<section>
+				<input type="text" id="nombrePokemon">
+				<input type="text" id="colorPokemon">
+				<input type="text" name="puntosAtaque">
+				<button type="button" id="crearPokemon" onclick="crearPokemon()">Crea aquí tu Pokemon
+				</button>
 
-			<select>
-			  <option value="Pokemones">???</option>
+			<select id="listaPokemones">
+			  	<option id="listaPokemones" value="yoTeElijo1">
+			  	</option>
+			</select>
+
+			<select id="listaPokemones">
+			  	<option>
+			  	</option>
 			</select>
 
 		</section>
 
-		<button type="button" id="crearPokemon" onclick="crearPokemon">Crea aquí tu Pokemon</button>
-
-		<script type="text/javascript" src=pokedex.js></script>
+		<script type="text/javascript" src=pokedex.js>
+		</script>
 
 		</body>
 
